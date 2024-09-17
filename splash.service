@@ -5,7 +5,7 @@ After=local-fs.target
 
 [Service]
 User=pi
-ExecStart=cvlc -q -f /home/userid/voron_boot/Voron_Boot.mp4 --no-video-title-show --play-and-exit 2> /dev/null
+ExecStart=cvlc -q -f /home/userid/voron_splash_screen/Voron_Boot.mp4 --no-video-title-show --play-and-exit 2> /dev/null
 StandardInput=tty
 StandardOutput=tty
 
